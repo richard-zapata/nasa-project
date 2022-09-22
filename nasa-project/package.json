@@ -13,7 +13,7 @@
     "deploy": "concurrently \"npm run build --prefix client\" \"npm start --prefix server\"",
     "test-server": "npm run test --prefix server",
     "test-client": "npm run test --prefix client",
-    "test": "concurrently \"npm run test-server\" \"npm run test-client\""
+    "test": "concurrently \"npm test-server\" \"npm test-client\""
   },
   "keywords": [],
   "author": "",
